@@ -1,55 +1,31 @@
-# React + TypeScript + Vite
+# Página Inicial de Loja Virtual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Objetivo**
 
-Currently, two official plugins are available:
+Criar uma página de produto de e-commerce utilizando React e Tailwind CSS. A página deve exibir imagens do produto, com a capacidade de trocar as imagens ao clicar nas miniaturas, e exibir informações detalhadas como título, preço, variantes de cor e tamanho, além de permitir a consulta de CEP para calcular o frete.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A solução foi desenvolvida de forma responsiva, adaptando-se bem a diferentes tamanhos de tela e dispositivos. Além disso, o estado da página é mantido por 15 minutos utilizando localStorage, garantindo que as seleções do usuário não sejam perdidas em caso de atualização da página.
 
-## Expanding the ESLint configuration
+# ⚙️ Tecnologias Usadas
+React
+- Tailwind CSS
+- API ViaCEP (para consulta de CEP)
+- localStorage (para persistir dados por 15 minutos)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Iniciando o projeto com o git
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Siga esses comando no terminal:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+   **Para instalar as dependencias e rodar o projeto, você pode usar esses comandos:**
+   ```shell
+   git clone https://github.com/EderJrDev/ecommerce.git
+   cd ecommerce
+   yarn install
+   yarn dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 📬 Contato
+Caso tenha alguma dúvida ou sugestão sobre o projeto, sinta-se à vontade para entrar em contato.
+- Email: ederjuninho200@gmail.com
+- LinkedIn: [Eder Junior](https://www.linkedin.com/in/ederjuniordev/)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-# ecommerce
+Obrigado por visitar esse projeto! 🙌
