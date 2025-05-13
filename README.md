@@ -6,7 +6,7 @@
   title="Project Ecommerce"
   style="display: inline-block; margin: 0 auto; max-width: 500px">
 
-🚀 **Objetivo**
+🚀 **Objetivo** 
 
 Criar uma página de produto de e-commerce utilizando React e Tailwind CSS. A página deve exibir imagens do produto, com a capacidade de trocar as imagens ao clicar nas miniaturas, e exibir informações detalhadas como título, preço, variantes de cor e tamanho, além de permitir a consulta de CEP para calcular o frete.
 
