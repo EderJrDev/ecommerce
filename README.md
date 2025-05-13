@@ -1,4 +1,4 @@
-# Teste de Desenvolvimento: Página Inicial de Loja Virtual
+# Página Inicial de Loja Virtual
 
 🚀 **Objetivo**
 
