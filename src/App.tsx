@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import imageMac1 from './assets/mac1.webp';
 import imageMac2 from './assets/mac2.webp';
 import imageMac3 from './assets/mac3.webp';
