@@ -142,7 +142,6 @@ const App = () => {
             />
           </div>
           <div className="flex gap-2 overflow-x-auto mt-4">
-            {/* Exibe as miniaturas conforme a cor selecionada */}
             {selectedColor === "Silver" ? (
               [imageMacSilver1, imageMacSilver2, imageMacSilver3, imageMacSsilver4].map((image, index) => (
                 <img
@@ -270,6 +269,16 @@ const App = () => {
           )}
         </div>
       </div>
+      <footer className="text-center my-8">
+        <p className="text-gray-400 text-sm">
+          © 2025 NewBrand. All rights reserved. Designed By
+          <a
+            href="https://ederjr.vercel.app/"
+            target="_blank"
+            className="underline font-bold text-gray-600 ml-1"
+          >Eder Jr</a>
+        </p>
+      </footer>
     </div>
   );
 };
